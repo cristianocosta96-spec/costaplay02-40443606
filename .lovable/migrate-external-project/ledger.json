@@ -1,0 +1,93 @@
+[
+  {
+    "capability": "code",
+    "source": "ZIP website",
+    "outcome": "import",
+    "status": "verified",
+    "next_action": "None: imported source and verified home page and plan values"
+  },
+  {
+    "capability": "schema",
+    "source": "No application database detected",
+    "outcome": "not applicable",
+    "status": "verified",
+    "next_action": "None"
+  },
+  {
+    "capability": "records",
+    "source": "Static plan and display lists",
+    "outcome": "preserve",
+    "status": "verified",
+    "next_action": "None: imported source and verified home page and plan values"
+  },
+  {
+    "capability": "auth identities",
+    "source": "No sign-in detected",
+    "outcome": "not applicable",
+    "status": "verified",
+    "next_action": "None"
+  },
+  {
+    "capability": "authorization",
+    "source": "Public promotional page",
+    "outcome": "preserve",
+    "status": "verified",
+    "next_action": "None: imported source and verified home page and plan values"
+  },
+  {
+    "capability": "uploaded file bytes",
+    "source": "31 Lovable asset pointers; favicon bytes",
+    "outcome": "preserve",
+    "status": "blocked",
+    "next_action": "Upload original 30 poster images and full-size logo; ZIP only includes cross-project references. Included favicon used for original logo."
+  },
+  {
+    "capability": "external providers",
+    "source": "TMDB images, Pravatar, Google Fonts, WhatsApp",
+    "outcome": "preserve",
+    "status": "partially verified",
+    "next_action": "WhatsApp destination verified with intercepted navigation; 16 TMDB posters load. Retained source asset references need original image bytes."
+  },
+  {
+    "capability": "public endpoints",
+    "source": "Home page only",
+    "outcome": "preserve",
+    "status": "verified",
+    "next_action": "None: imported source and verified home page and plan values"
+  },
+  {
+    "capability": "callbacks and webhooks",
+    "source": "None detected",
+    "outcome": "not applicable",
+    "status": "verified",
+    "next_action": "None"
+  },
+  {
+    "capability": "schedules",
+    "source": "None detected",
+    "outcome": "not applicable",
+    "status": "verified",
+    "next_action": "None"
+  },
+  {
+    "capability": "secrets",
+    "source": "None detected",
+    "outcome": "not applicable",
+    "status": "verified",
+    "next_action": "None"
+  },
+  {
+    "capability": "cutover",
+    "source": "Custom domain not provided; not published",
+    "outcome": "pending",
+    "status": "pending",
+    "next_action": "User publishes and connects domain"
+  },
+  {
+    "capability": "verification",
+    "source": "Import pending",
+    "outcome": "verify",
+    "status": "partially verified",
+    "next_action": "Home route test passes; desktop/mobile no horizontal overflow or runtime errors; source poster images blocked by missing bytes."
+  }
+]

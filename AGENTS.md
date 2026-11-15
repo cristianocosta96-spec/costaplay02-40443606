@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+<!-- AGENT-MEMORY:BEGIN -->
+- Preserve the target TanStack bootstrap and pinned dependencies during source imports so the published runtime remains compatible.
+- Keep the imported single-page website at / and asset references in src/assets so existing source navigation and media stay traceable.
+<!-- AGENT-MEMORY:END -->
