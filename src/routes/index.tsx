@@ -19,6 +19,7 @@ import {
   Crown,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/costa-play-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -270,7 +271,7 @@ function Index() {
         <div className="flex items-center justify-between px-6 py-2">
           <a href="#top">
             <img
-              src="/favicon.png"
+              src={logo.url}
               alt="Costa Play"
               className="h-14 w-14 rounded-full object-cover"
             />
@@ -297,7 +298,7 @@ function Index() {
         <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
         <div className="relative mx-auto max-w-4xl">
           <img
-            src="/favicon.png"
+            src={logo.url}
             alt="Costa Play"
             className="mx-auto mb-6 h-40 w-40 rounded-full object-cover shadow-glow md:h-52 md:w-52"
           />
@@ -561,7 +562,7 @@ function Index() {
 
       <footer className="border-t border-border px-6 py-12 text-center">
         <img
-          src="/favicon.png"
+          src={logo.url}
           alt="Costa Play"
           className="mx-auto h-28 w-28 rounded-full object-cover"
         />
